@@ -68,8 +68,7 @@ module ThemesForRails
     end
 
     def sass_is_available?
-      binding.pry
-      !!defined?Sass::Plugin
+      !!defined?Sass::Rails
     end
   end  
 end
